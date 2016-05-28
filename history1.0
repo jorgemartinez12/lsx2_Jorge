@@ -1,0 +1,249 @@
+    1  cd ..
+    2  ls
+    3  ls -a
+    4  cfdisk
+    5  fdisk -l
+    6  cfdisl /dev/sda
+    7  man cfdisk
+    8  cfdisk /dev/sda8
+    9  cfdisk
+   10  pvcreate /dev/sda6
+   11  apt-get install lvm2
+   12  cfdisk /dev/sda
+   13  pvcreate /dev/sda6
+   14  fsdisk -l
+   15  fdisk /l
+   16  fdisk -l
+   17  cfdisk -l
+   18  clear
+   19  fdisk -l
+   20  pvdisplay
+   21  fdisk /dev/sda6
+   22  pvdisplay
+   23  pvcreate /dev/sda{7,8,9}
+   24  pvdisplay
+   25  ls
+   26  which dev
+   27  cd tmp
+   28  cd /t,p
+   29  cd /tmp
+   30  which tmp
+   31  man which
+   32  which cat
+   33  which -a dev
+   34  whih -a cat
+   35  which -a cat
+   36  cd ..
+   37  cd /dev
+   38  ls
+   39  ls /l
+   40  ls -l
+   41  cd sda6
+   42  cd ..
+   43  cd home
+   44  man vgcreate
+   45  vgcreate -s 16M vg01 /dev/sda6
+   46  vgdisplay
+   47  apt-get install vim
+   48  vim /etc/fstab
+   49  apt-get install git
+   50  vgextend vg01 /dev/sda7
+   51  vgdispplay
+   52  vgdispla
+   53  vgdisplay
+   54  vgdisplay -l
+   55  man vgdisplay
+   56  vgdisplay -a
+   57  vgdisplay --a
+   58  man vgdisplay
+   59  vgdisplay -A
+   60  vgdisplay
+   61  vgcreate -s 16M vg02 /dev/sda8
+   62  vgdisplay
+   63  vgextend vg02 /dev/sda9
+   64  vgdispay
+   65  vgdisplay
+   66  vgdisplay -V
+   67  vgdisplay -v
+   68  man lvcreate
+   69  lvcreate -L 500M -n data01 vg01
+   70  lvcreate -L 1G -n data02 vg02
+   71  man df
+   72  df -lh
+   73  lvdisplay
+   74  |fdisk -l | grep mapper
+   75  fdisk -l | grep mapper
+   76  lvdisplay | grep path
+   77  man mkfs
+   78  mkfs -t ext4 /dev/vg01/data01
+   79  mkfs -t ext4 /dev/vg02/data02
+   80  ls
+   81  lvdisplay -h
+   82  lvdisplay
+   83  lvdisplay /v
+   84  lvdisplay -v
+   85  apt-get install tree
+   86  mkdir data01
+   87  mkdir data02
+   88  ls -la
+   89  cd /temp
+   90  cd /tmp
+   91  mkdir data{01,02,04,05}
+   92  ls
+   93  cd ..
+   94  cd home
+   95  ls -la
+   96  mount /dev/vg01/data01 data01/
+   97  mount /dev/vg02/data02 data02/
+   98  man mount
+   99  ls
+  100  tree
+  101  ls /dev/vg02
+  102  df -lh
+  103  ls -l /dev/mapper/
+  104  man gcc
+  105  ls /dev/dm-0
+  106  mount
+  107  git init
+  108  git config --global user.name "jomartin"
+  109  git config --global user.email jorge9450abcd@gmail.com
+  110  git config --global core.editor vim
+  111  apt-get install vim
+  112  history
+  113  git config --list
+  114  tree .git/
+  115  vim ./gitconfig
+  116  vim ~/ .gitconfig
+  117  ./gitconfig
+  118  ./git
+  119  vim /gitconfig
+  120  git help remote
+  121  git remote add origin https://github.com/jorgemartinez12/lsx2_Jorge.git
+  122  git help push
+  123  git push -u origin master
+  124  gitconfig
+  125  git config user.name
+  126  git push -u origin master
+  127  ls
+  128  which history
+  129  which cat
+  130  history
+  131  git help add
+  132  git status
+  133  git add history/
+  134  vim ~/ .gitconfig
+  135  vim ~/.gitconfig
+  136  git add error/
+  137  git add error
+  138  git help add
+  139  mkdir history1 error1 src1
+  140  ls
+  141  lvmdisplay
+  142  lvdisplay
+  143  history > history1
+  144  history
+  145  cd histoy1
+  146  cd history1
+  147  ls
+  148  cd ..
+  149  history > home/history
+  150  history > home/history1
+  151  vim ~/.gitconfig
+  152  cat home > history1
+  153  cat home
+  154  cat
+  155  ls home
+  156  ls
+  157  ls > history1
+  158  ls >history1
+  159  cd history1/
+  160  touch history1.0
+  161  cd..
+  162  cd ..
+  163  ls > history1/history1,0
+  164  cd history1/history1.0 
+  165  cd history1/
+  166  ls
+  167  cat history1.0 
+  168  vim ./history1.0 
+  169  ls history1/history1.0
+  170  vim ~/gitconfig
+  171  cd ..
+  172  vim ~/gitconfig
+  173  vim ~/.gitconfig
+  174  vim ~/history1/.history1.0
+  175  ifconfig
+  176  man ifconfig
+  177  cd history1
+  178  cat
+  179  ls
+  180  cat history1,0
+  181  ls
+  182  cd..
+  183  cd ..
+  184  ls
+  185  cd history1
+  186  ls
+  187  cat
+  188  more history1.0
+  189  more history1,0
+  190  history
+  191  history >file1
+  192  ls
+  193  cat file1
+  194  git status
+  195  cd ..
+  196  man rm
+  197  tree
+  198  rm -R history1
+  199  tree
+  200  mkdir git data
+  201  rm git data
+  202  rm -R git data
+  203  mkdir gitdata
+  204  cd gitdata
+  205  history >history1
+  206  cat history1 
+  207  cd ..
+  208  git push -u gitdata
+  209  git remote add gitdata https://github.com/jorgemartinez12/lsx2_jorge.git
+  210  git push -u gitdata master
+  211  cd gitdata/
+  212  git init
+  213  tree .git
+  214  git add error/
+  215  git add error
+  216  git remote
+  217  cd ..
+  218  git remoe
+  219  git remote
+  220  git remote -v
+  221  puscj 
+  222  git init
+  223  git push -u gitdata master
+  224  git remote
+  225  cd gitdata/
+  226  ls
+  227  cd history1 
+  228  git init
+  229  git remote add gitdata1 https://github.com/jorgemartinez12/lsx2_jorge.git
+  230  git push -u gitdata1 master
+  231  history >gitdata1
+  232  git push -u gitdata1 master
+  233  cd ..
+  234  echo "# lsx2_Jorge" >> README.md
+  235  cd gitdata/
+  236  echo "# lsx2_Jorge" >> README.md
+  237  git init
+  238  ls
+  239  cat history1 
+  240  git add README.md
+  241  git add history1
+  242  git add error
+  243  mkdir error
+  244  git add error
+  245  mkdir src
+  246  git add src/
+  247  mkdir misc
+  248  git add misc/
+  249  history >history1.0
